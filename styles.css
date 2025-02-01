@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: black;
+    padding: 10px 15px;
+    color: white;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 50px; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;
+}
+
+li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #FFD700;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('pexels-expressivestanley-1454360.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(228, 228, 228);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.mainTitle {
+    font-weight: bold;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 40px; 
+    max-width: 60%;
+    line-height: 1.5; 
+}
+
+.lrnMore {
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.lrnMore:hover {
+    background-color: #FFD700;
+    color: black;
+    transform: scale(1.05);
+}
+
+.resources-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+}
+
+.resources-header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.resources-header p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.resources-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.resources-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.resource-category {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.resource-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.resource-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-category li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resource-category a {
+    color: #FFD700;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resource-category a:hover {
+    text-decoration: underline;
+}
+
+.feedback-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+}
+
+.feedback-container h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.feedback-container p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 80%;
+    max-width: 600px;
+    height: 150px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: vertical;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFC107;
+}
+
+.about-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+}
+
+.about-container h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+}
